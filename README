@@ -1,0 +1,11 @@
+g++ -o lab3.out lab3.cpp
+
+explanation:
+sort(): nlogn
+insertion_sort(): n^2
+because n^2 calculates more times than nlogn,so it need longer time
+result:
+sort:size=100000-->0.04
+     size=1000000-->0.48
+insertion_sort:size=10000-->1.29
+               size=100000-->131
