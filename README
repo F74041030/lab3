@@ -1,4 +1,4 @@
-g++ -o lab3.out lab3.cpp
+make
 
 explanation:
 sort(): nlogn
